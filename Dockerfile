@@ -3,3 +3,4 @@ RUN apt update
 RUN apt install -y net-tools iputils-ping traceroute curl dnsutils
 RUN apt install -y openvswitch-switch
 RUN apt install -y tcpdump
+RUN apt install -y iperf
